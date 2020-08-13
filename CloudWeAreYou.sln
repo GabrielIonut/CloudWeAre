@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CloudWeAreYou.Web", "CloudWeAreYou.Web\", "{203752EB-1515-467D-9EEC-44A6D74171DF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1516"
+		Debug.AspNetCompiler.PhysicalPath = "CloudWeAreYou.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1516\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1516"
+		Release.AspNetCompiler.PhysicalPath = "CloudWeAreYou.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1516\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1516"
+		SlnRelativePath = "CloudWeAreYou.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{3D292F22-8A66-4CCC-B88C-4C042DD7E776} = {3D292F22-8A66-4CCC-B88C-4C042DD7E776}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudWeAreYou.Core", "CloudWeAreYou.Core\CloudWeAreYou.Core.csproj", "{3D292F22-8A66-4CCC-B88C-4C042DD7E776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203752EB-1515-467D-9EEC-44A6D74171DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203752EB-1515-467D-9EEC-44A6D74171DF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D292F22-8A66-4CCC-B88C-4C042DD7E776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D292F22-8A66-4CCC-B88C-4C042DD7E776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D292F22-8A66-4CCC-B88C-4C042DD7E776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D292F22-8A66-4CCC-B88C-4C042DD7E776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C745B88-BCB2-40A3-8070-258EE3501EE2}
+	EndGlobalSection
+EndGlobal
